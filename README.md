@@ -26,7 +26,9 @@ The multimodal features are fused together to make predictions about meal calori
 
 ## Block Diagram
 
-Below is the block diagram representing the architecture of the model:(model (1).png)
+Below is the block diagram representing the architecture of the model:
+![Block Diagram](https://github.com/Chetansai11/MEAL_NUTRITION_ANALYSIS/blob/main/model%20(1).png)
+
 
 ## Training and Evaluation
 
