@@ -32,10 +32,10 @@ Below is the block diagram representing the architecture of the model:
 
 ## Training and Evaluation
 
-The model is trained on a labeled dataset of meals with known nutritional values, using a combination of loss functions tailored for regression and classification tasks. The performance is evaluated using metrics such as Mean Absolute Error (MAE) and R-squared (R²) to assess the model's accuracy in predicting calorie intake and other nutrition metrics.
+The model is trained on a labeled dataset of meals with known nutritional values, using the Root Mean Squared Relative Error (RMSRE) as the primary loss function. This ensures that the model minimizes relative errors, which is critical for maintaining accuracy across varying nutritional values. The performance is evaluated using metrics such as RMSRE and R-squared (R²) to assess the model's accuracy in predicting calorie intake and other nutritional metrics.
 
 ## Results
 
-The multimodal model outperforms baseline single-modality models by leveraging the complementary information from the different data sources. The model demonstrates a 30% improvement in accuracy for lunch calorie intake predictions compared to previous benchmarks.
+The multimodal model significantly outperforms baseline single-modality models by leveraging complementary information from diverse data sources. The model achieved a test loss of 33% using RMSRE, a notable improvement compared to the benchmark test loss of 52%, demonstrating its effectiveness in accurate calorie intake predictions.
 
 This **README.md** provides an overview of the project, explains the architecture with a block diagram, and results.
